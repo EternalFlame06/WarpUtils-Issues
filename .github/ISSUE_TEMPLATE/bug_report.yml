@@ -41,17 +41,3 @@ body:
         Drag-and-drop the log file here.
     validations:
       required: true
-  - type: textarea
-    id: crash-report-file
-    attributes:
-      label: Crash Report
-      description: >-
-        **Important:** Even if your game is _not crashing_ as a result of your problem, we still need a crash report. This
-        file contains important information about your hardware and software configuration. You can generate a crash report
-        manually by loading the game to the main menu, and holding the F3+C keys together for approximately 10 seconds.
-        
-        **Hint:** You can usually find crash reports (with their date and time) in the folder `.minecraft/crash-reports`.
-      placeholder: >-
-        Drag-and-drop the crash report file here.
-    validations:
-      required: true
