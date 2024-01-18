@@ -3,15 +3,14 @@ description: "For reporting bugs"
 labels:
   - bug
 body:
-#  - type: markdown
+  - type: markdown
     attributes:
       value: >-
-        <br><br>
         Before proceeding, please consider the following:
         
-        - Have you checked if the mod is on the latest version, the latest version can be found [here](https://modrinth.com/mod/warputils/versions)
+        - Have you checked if the mod is on the latest version? The latest version can be found [here](https://stackoverflow.com/questions/64373516/github-actions-you-have-an-error-in-your-yaml-syntax).
         
-        - Please also check if the issue has already been reported
+        - Please also check if the issue has already been reported.
 
         
   - type: textarea
@@ -19,10 +18,10 @@ body:
     attributes:
       label: Bug Description
       description: >-
-        Describe the issue in as much detail as possible. This section should contain what behaviour expect and why you believe the actual behaviour is a bug. If this issue only occurs with specific mods installed, provide their names and versions.
+        Describe the issue in as much detail as possible. This section should contain what behavior you expect and why you believe the actual behavior is a bug. If this issue only occurs with specific mods installed, provide their names and versions.
 
         **Hint:** If you have any additional information, such as screenshots or videos, that you feel would help explain the issue, please attach them here.
-  validations:
+    validations:
       required: true
   
   - type: textarea
@@ -32,7 +31,7 @@ body:
       description: >-
         Please provide detailed instructions on how to reproduce the bug. Make sure your instructions are clear and concise, as other people will need to follow them to recreate the issue.
         
-        **Hint:**  A common way to fill this section out is to write a step-by-step guide.
+        **Hint:** A common way to fill this section out is to write a step-by-step guide.
     validations:
       required: true
       
