@@ -18,15 +18,13 @@ body:
       description: >-
         Describe the isse in as much detail as possible. This section should contain what behaviour expect and why you believe the actual behaviour is a bug. If this issue only occurs with specific mods installed, provide their names and versions.
 
-        **Hint:** If you have any screenshots, videos, or other information that you feel is necessary to
-        explain the issue, you can attach them here.
+        **Hint:** If you have any additional information, such as screenshots or videos, that you feel would help explain the issue, please attach them here.
   - type: textarea
     id: description-reproduction-steps
     attributes:
       label: Reproduction Steps
       description: >-
-        Provide as much information as possible on how to reproduce this bug. Make sure your instructions are as clear and
-        concise as possible, because other people will need to be able to follow your guide in order to re-create the issue.
+        Please provide detailed instructions on how to reproduce the bug. Make sure your instructions are clear and concise, as other people will need to follow them to recreate the issue.
         
         **Hint:**  A common way to fill this section out is to write a step-by-step guide.
     validations:
