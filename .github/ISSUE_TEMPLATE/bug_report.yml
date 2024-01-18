@@ -19,9 +19,12 @@ body:
     attributes:
       label: Bug Description
       description: >-
-        Describe the isse in as much detail as possible. This section should contain what behaviour expect and why you believe the actual behaviour is a bug. If this issue only occurs with specific mods installed, provide their names and versions.
+        Describe the issue in as much detail as possible. This section should contain what behaviour expect and why you believe the actual behaviour is a bug. If this issue only occurs with specific mods installed, provide their names and versions.
 
         **Hint:** If you have any additional information, such as screenshots or videos, that you feel would help explain the issue, please attach them here.
+  validations:
+      required: true
+  
   - type: textarea
     id: description-reproduction-steps
     attributes:
@@ -32,6 +35,7 @@ body:
         **Hint:**  A common way to fill this section out is to write a step-by-step guide.
     validations:
       required: true
+      
   - type: textarea
     id: log-file
     attributes:
