@@ -6,7 +6,6 @@ body:
   - type: markdown
     attributes:
       value: >-
-        <br><br>
         Before proceeding, please consider the following:
         
         - Have you checked if the mod is on the latest version? The latest version can be found [here](https://stackoverflow.com/questions/64373516/github-actions-you-have-an-error-in-your-yaml-syntax).
