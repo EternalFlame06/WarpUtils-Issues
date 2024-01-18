@@ -3,7 +3,6 @@ description: "For reporting bugs"
 labels:
   - bug
 body:
-
   - type: markdown
     attributes:
       value: >-
