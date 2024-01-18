@@ -7,11 +7,13 @@ body:
     attributes:
       value: >-
         <br><br>
-        Please make sure you have done the following:
+        Before proceeding, please consider the following:
         
         - Have you checked if the mod is on the latest version, the latest version can be found [here](https://modrinth.com/mod/warputils/versions)
         
         - Please also check if the issue has already been reported
+
+        
   - type: textarea
     id: description
     attributes:
