@@ -13,6 +13,8 @@ body:
         
         - Please also check if the feature has already been requested
 
+        - Please only request one feature per issue, unless they are closely related
+
         
   - type: textarea
     id: description
@@ -26,23 +28,8 @@ body:
       required: true
   
   - type: textarea
-    id: description-reproduction-steps
+    id: altDescribtion
     attributes:
-      label: Reproduction Steps
+      label: Alternative Descriotion
       description: >-
-        Please provide detailed instructions on how to reproduce the bug. Make sure your instructions are clear and concise, as other people will need to follow them to recreate the issue.
-        
-        **Hint:**  A common way to fill this section out is to write a step-by-step guide.
-    validations:
-      required: true
-  - type: textarea
-    id: log-file
-    attributes:
-      label: Log File
-      description: >-
-        **Hint:** You can usually find the log files within the folder `.minecraft/logs`. Most often, you will want the `latest.log`
-        file, since that file belongs to the last played session of the game.
-      placeholder: >-
-        Drag-and-drop the log file here.
-    validations:
-      required: true
+        If you have thought of any alternatives feel free to describe them here.
