@@ -29,11 +29,11 @@ body:
     attributes:
       label: Reproduction Steps
       description: >-
-        Please provide detailed instructions on how to reproduce the bug. Make sure your instructions are clear and concise, as other people will need to follow them to recreate the issue.
+        Please provide detailed instructions on how to reproduce the bug. Make sure your instructions are clear and concise, as other people will need to follow them to recreate the issue. This is not required but it can be extremely helpful to find out under which circumstances the bug occurs.
         
         **Hint:** A common way to fill this section out is to write a step-by-step guide.
     validations:
-      required: true
+      required: false
       
   - type: textarea
     id: log-file
@@ -41,8 +41,8 @@ body:
       label: Log File
       description: >-
         **Hint:** You can usually find the log files within the folder `.minecraft/logs`. Most often, you will want the `latest.log`
-        file, since that file belongs to the last played session of the game.
+        file, since that file belongs to the last played session of the game. This is mostly useful when the game crashes.
       placeholder: >-
         Drag-and-drop the log file here.
     validations:
-      required: true
+      required: false
